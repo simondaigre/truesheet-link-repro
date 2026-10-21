@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "TrueSheetLinkRepro",
+    "slug": "truesheet-link-repro",
+    "scheme": "truesheetrepro",
+    "ios": { "bundleIdentifier": "com.example.truesheetlinkrepro" },
+    "android": { "package": "com.example.truesheetlinkrepro" },
+    "plugins": ["expo-router"]
+  }
+}
