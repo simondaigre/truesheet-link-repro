@@ -15,5 +15,6 @@ npx expo run:ios
 
 **Expected:** the same as **Go to details**.
 
-**Actual:** the sheet isn't dismissed as expected and Details isn't shown in `(main)`. #952 only handles a
-`NAVIGATE`: the `PUSH` of `(main)` from the sheet still pushes a second `(main)`.
+**Actual** (iOS 27.0): the sheet disappears and the home screen stays dimmed, without Details, and no longer
+responds. #952 only handles a `NAVIGATE`: the `PUSH` of `(main)` from the sheet still pushes a second `(main)`, with
+Details in it, presented as a sheet off screen (only its grabber shows at the bottom).
