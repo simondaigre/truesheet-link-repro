@@ -8,13 +8,14 @@
     "android": "expo run:android"
   },
   "dependencies": {
-    "@lodev09/react-native-true-sheet": "4.0.0-beta.28",
+    "@lodev09/react-native-true-sheet": "file:vendor/react-native-true-sheet-1e09059.tgz",
     "expo": "~58.0.14",
     "expo-constants": "~58.0.12",
     "expo-linking": "~58.0.13",
     "expo-router": "~58.0.23",
     "expo-status-bar": "~58.0.3",
     "react": "19.3.0",
+    "react-dom": "19.3.0",
     "react-native": "0.88.0",
     "react-native-reanimated": "4.7.1",
     "react-native-safe-area-context": "~5.10.1",
